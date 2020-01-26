@@ -1,4 +1,4 @@
-package com.bignerdranch.android.geoquiz
+package edu.vt.cs.cs5254.geoquiz
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import edu.vt.cs.cs5254.geoquiz.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,12 +16,31 @@ class MainActivity : AppCompatActivity() {
     private lateinit var questionTextView: TextView
 
     private val questionBank = listOf(
-        Question(R.string.question_australia, true),
-        Question(R.string.question_oceans, true),
-        Question(R.string.question_mideast, false),
-        Question(R.string.question_africa, false),
-        Question(R.string.question_americas, true),
-        Question(R.string.question_asia, true))
+        Question(
+            R.string.question_australia,
+            true
+        ),
+        Question(
+            R.string.question_oceans,
+            true
+        ),
+        Question(
+            R.string.question_mideast,
+            false
+        ),
+        Question(
+            R.string.question_africa,
+            false
+        ),
+        Question(
+            R.string.question_americas,
+            true
+        ),
+        Question(
+            R.string.question_asia,
+            true
+        )
+    )
 
     private var currentIndex = 0
 

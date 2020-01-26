@@ -1,4 +1,4 @@
-package com.bignerdranch.android.geoquiz
+package edu.vt.cs.cs5254.geoquiz
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

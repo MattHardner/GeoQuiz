@@ -1,4 +1,4 @@
-package com.bignerdranch.android.geoquiz
+package edu.vt.cs.cs5254.geoquiz
 
 import org.junit.Test
 
