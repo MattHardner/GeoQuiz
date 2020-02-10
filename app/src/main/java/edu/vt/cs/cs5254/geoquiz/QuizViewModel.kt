@@ -43,4 +43,5 @@ class QuizViewModel : ViewModel() {
     }
 
      var currentIndex = 0
+     var isCheater = false
 }
